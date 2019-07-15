@@ -9,7 +9,7 @@ Username for 'https://github.com': "
 send -- "krishnabose02\r"
 expect -exact "krishnabose02\r
 Password for 'https://krishnabose02@github.com': "
-send -- "7407c5694fc06f8252bf7b7fcfd05e374e31b14c\n"
+send -- "7407c5694fc06f8252bf7b7fcfd05e374e31b14c"'\n'
 # expect eof
 
 # expect -exact "Your commit message\r
