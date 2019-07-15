@@ -1,5 +1,5 @@
 #!/bin/bash -e
-echo "Enter commit message"
+echo "Your commit message"
 read message
 # echo "You have entered commit message :" $message
 git add . &> /dev/null
