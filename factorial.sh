@@ -4,7 +4,8 @@ set timeout -1
 spawn ./pushcode.sh
 expect "Your commit message\r"
 send -- "$message\r"
-expect "Username for 'https://github.com': \r"
+expect "$message\r
+Username for 'https://github.com': \r"
 send -- "krishnabose02\r"
 expect "krishnabose02\r
 Password for 'https://github.com': "
