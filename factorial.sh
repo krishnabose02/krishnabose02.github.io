@@ -3,7 +3,7 @@
 set timeout -1
 spawn ./pushcode.sh
 expect "Enter commit message\r"
-interact -- return
+interact return
 expect "Username for 'https://github.com': \r"
 send -- "krishnabose02\r"
 expect "Password for 'https://github.com': "
