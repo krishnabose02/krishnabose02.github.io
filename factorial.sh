@@ -8,7 +8,7 @@ expect -exact "$message\r
 Username for 'https://github.com': "
 send -- "krishnabose02\r"
 expect -exact "krishnabose02\r
-Password for 'https://github.com': "
+Password for 'https://krishnabose02@github.com': "
 send -- "7407c5694fc06f8252bf7b7fcfd05e374e31b14c\r"
 # expect eof
 
