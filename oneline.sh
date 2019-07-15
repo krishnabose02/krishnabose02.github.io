@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "Enter your full name"
-read name
-echo "Hello," $name"!"
+echo "Enter commit message:"
+read message
+./factorial.sh "$message"
