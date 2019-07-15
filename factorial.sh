@@ -1,5 +1,5 @@
 #!/usr/bin/expect -f
-set message [lindex $argv 0]
+# set message [lindex $argv 0]
 set timeout -1
 spawn ./pushcode.sh
 expect "Enter commit message\r"
